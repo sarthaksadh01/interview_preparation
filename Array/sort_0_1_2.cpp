@@ -14,7 +14,7 @@ void brute_force2(vector<int>&arr){
     }
     // T = O(n)*2
 }
-void optimised(vector<int>&arr){
+void solution(vector<int>&arr){
     int curr_zero = 0;
     int curr_two = arr.size()-1;
     int idx = 0;

@@ -11,7 +11,7 @@ int brute_force(vector<int>&arr){
     }
     return sum;
 }
-int optimised(vector<int>&arr){
+int solution(vector<int>&arr){
     int maxSum = INT_MIN;
     int currSum = 0;
     for(int i:arr){

@@ -27,7 +27,7 @@ void brute_force2(vector<int>&arr,int k){
     // S = O(n)
 }
 
-void optimised(vector<int>&arr,int k){
+void solution(vector<int>&arr,int k){
 
     //left
     reverse(begin(arr),begin(arr)+k);

@@ -23,7 +23,7 @@ int brute_force2(vector<int>&arr,int k){
 
 }
 
-int optimised(vector<int>&arr,int k){
+int solution(vector<int>&arr,int k){
     if(k>arr.size())
         return -1;
     auto partition = [&](int left,int right){
