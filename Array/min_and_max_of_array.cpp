@@ -22,7 +22,7 @@ min_max brute_force(vector<int>&arr){
     // number of comparison = 2*n
 }
 
-min_max optimised(vector<int>&arr,int low,int high){
+min_max solution(vector<int>&arr,int low,int high){
     if(low == high){
         return {arr[low],arr[low]};
     }
