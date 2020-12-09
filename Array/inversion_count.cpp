@@ -11,7 +11,7 @@ int brute_force(vector<int>&arr,int n){
 }
 
 
-void merge(int l,int mid,int r,vector<int>&arr){
+int merge(int l,int mid,int r,vector<int>&arr){
     vector<int>temp;
     int i = l,j = mid+1;
     int c = 0;
@@ -23,6 +23,7 @@ void merge(int l,int mid,int r,vector<int>&arr){
             temp.push_back(arr[j++]);
         }
     }
+    return c;
 }
 
 void merge_sort(vector<int>&arr,int l,int r,int count){
