@@ -33,8 +33,8 @@ min_max solution(vector<int>&arr,int low,int high){
             return {arr[low],arr[high]};
     }
     int mid = low + (high-low)/2;
-    min_max left = optimised(arr,low,mid);
-    min_max right = optimised(arr,mid+1,high);
+    min_max left = solution(arr,low,mid);
+    min_max right = solution(arr,mid+1,high);
     return {min(left.minElement,right.minElement),max(left.maxElement,right.maxElement)};
     // time = O(n)
     // space = O(1) + stack
